@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prédiction de match</title>
+<style>
+ body{font-family:system-ui,sans-serif;background:#f9f9f7;color:#0b0b0b;margin:0;padding:24px}
+ main{max-width:520px;margin:auto;background:#fcfcfb;border:1px solid #e1e0d9;border-radius:12px;padding:24px}
+ label{display:block;margin:14px 0 4px;font-size:14px;color:#52514e} input,select,button{width:100%;padding:10px;font-size:16px;box-sizing:border-box;border:1px solid #c3c2b7;border-radius:8px}
+ button{background:#2a78d6;color:#fff;border:0;margin-top:18px;cursor:pointer} .barre{height:14px;border-radius:7px;margin:4px 0 12px}
+ #err{color:#d03b3b;margin-top:12px}
+</style></head><body><main>
+<h1 style="font-size:20px;margin:0 0 4px">Prédiction du résultat d'un match</h1>
+<small style="color:#52514e">Tapez le début du nom d'un club et choisissez-le dans la liste.</small>
+<label>Équipe à domicile</label><input id="dom" list="liste" autocomplete="off">
+<label>Équipe à l'extérieur</label><input id="ext" list="liste" autocomplete="off">
+<datalist id="liste"></datalist>
+<label>Type de compétition</label><select id="comp"></select>
+<button id="go">Prédire</button><div id="err"></div><div id="res"></div>
+</main><script>
+const ids = {}, COUL = {'Victoire domicile':'#2a78d6','Nul':'#1baf7a','Victoire extérieur':'#eb6834'};
+async function chercher(e){
+  const r = await (await fetch('/equipes?limite=20&q=' + encodeURIComponent(e.target.value))).json();
+  document.getElementById('liste').innerHTML = r.map(x => { const t = x.nom + ' (' + x.id + ')'; ids[t] = x.id; return '<option value="' + t + '">'; }).join('');
+}
+for (const i of ['dom','ext']) document.getElementById(i).addEventListener('input', chercher);
+fetch('/competitions').then(r => r.json()).then(l => document.getElementById('comp').innerHTML = l.map(c => '<option>' + c + '</option>').join(''));
+document.getElementById('go').onclick = async () => {
+  const err = document.getElementById('err'), res = document.getElementById('res'); err.textContent = ''; res.innerHTML = '';
+  const d = ids[document.getElementById('dom').value], x = ids[document.getElementById('ext').value];
+  if (d === undefined || x === undefined) { err.textContent = 'Choisissez deux clubs dans la liste.'; return; }
+  const r = await fetch('/predict-match', {method:'POST', headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({equipe_dom: d, equipe_ext: x, competition_type: document.getElementById('comp').value})});
+  const j = await r.json();
+  if (!r.ok) { err.textContent = typeof j.detail === 'string' ? j.detail : 'Requête refusée (' + r.status + ')'; return; }
+  res.innerHTML = '<h2 style="font-size:18px">' + j.prediction + '</h2>' + Object.entries(j.probabilites).map(([k,v]) =>
+     '<div>' + k + ' : <b>' + (v*100).toFixed(1) + ' %</b></div><div class="barre" style="width:' + (v*100) + '%;background:' + COUL[k] + '"></div>').join('');
+};
+</script></body></html>

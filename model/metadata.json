@@ -1,0 +1,110 @@
+{
+  "version": "football-v1",
+  "entraine_le": "2026-11-18",
+  "modele": "Régression logistique",
+  "hyperparametres": {
+    "C": 0.1
+  },
+  "features": [
+    "elo_dom",
+    "elo_ext",
+    "elo_diff",
+    "pts_dom",
+    "pts_ext",
+    "pts_diff",
+    "bp_dom",
+    "bc_dom",
+    "bp_ext",
+    "bc_ext",
+    "val_diff",
+    "val_moy",
+    "repos_dom",
+    "repos_ext",
+    "val_connue",
+    "competition_type"
+  ],
+  "classes": [
+    "Victoire extérieur",
+    "Nul",
+    "Victoire domicile"
+  ],
+  "prior_classes": [
+    0.3206,
+    0.2274,
+    0.452
+  ],
+  "competitions": [
+    "domestic_cup",
+    "domestic_league",
+    "international_cup",
+    "national_team_competition",
+    "other"
+  ],
+  "bornes": {
+    "elo_dom": [
+      1000,
+      2500
+    ],
+    "elo_ext": [
+      1000,
+      2500
+    ],
+    "elo_diff": [
+      -1500,
+      1500
+    ],
+    "pts_dom": [
+      0,
+      3
+    ],
+    "pts_ext": [
+      0,
+      3
+    ],
+    "pts_diff": [
+      -3,
+      3
+    ],
+    "bp_dom": [
+      0,
+      10
+    ],
+    "bc_dom": [
+      0,
+      10
+    ],
+    "bp_ext": [
+      0,
+      10
+    ],
+    "bc_ext": [
+      0,
+      10
+    ],
+    "val_diff": [
+      -5,
+      5
+    ],
+    "val_moy": [
+      0,
+      10
+    ],
+    "repos_dom": [
+      0,
+      30
+    ],
+    "repos_ext": [
+      0,
+      30
+    ]
+  },
+  "metriques_test_temporel": {
+    "accuracy": 0.5243,
+    "f1_macro": 0.3825,
+    "reference": 0.4452
+  },
+  "lignes_entrainement": 80044,
+  "sklearn": "1.9.0",
+  "python": "3.14.6",
+  "sha256": "5d408bbd1d5f4b04ac58e6780263834f1bb9c4ce8f0e43d45f30d72ddcb47478"
+}

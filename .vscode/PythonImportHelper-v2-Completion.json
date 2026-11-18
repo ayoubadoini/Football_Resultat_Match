@@ -1,0 +1,626 @@
+[
+    {
+        "label": "hashlib,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib.",
+        "description": "hashlib.",
+        "detail": "hashlib.",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigDict",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "CLASSES",
+        "importPath": "features",
+        "description": "features",
+        "isExtraImport": true,
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "FEATURES",
+        "importPath": "features",
+        "description": "features",
+        "isExtraImport": true,
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_MATCHS",
+        "importPath": "features",
+        "description": "features",
+        "isExtraImport": true,
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "ligne_depuis_etat",
+        "importPath": "features",
+        "description": "features",
+        "isExtraImport": true,
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "FEATURES",
+        "importPath": "features",
+        "description": "features",
+        "isExtraImport": true,
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_MATCHS",
+        "importPath": "features",
+        "description": "features",
+        "isExtraImport": true,
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "ligne_depuis_etat",
+        "importPath": "features",
+        "description": "features",
+        "isExtraImport": true,
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "etat",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "MatchFeatures",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class MatchFeatures(BaseModel):\n    model_config = ConfigDict(extra='forbid')                         # champ inconnu -> 422\n    elo_dom: float = borne('elo_dom')\n    elo_ext: float = borne('elo_ext')\n    elo_diff: float = borne('elo_diff')\n    pts_dom: float = borne('pts_dom')\n    pts_ext: float = borne('pts_ext')\n    pts_diff: float = borne('pts_diff')\n    bp_dom: float = borne('bp_dom')\n    bc_dom: float = borne('bc_dom')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "MatchEquipes",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class MatchEquipes(BaseModel):\n    model_config = ConfigDict(extra='forbid')\n    equipe_dom: int\n    equipe_ext: int\n    competition_type: Competition\n    date: Optional[str] = Field(default=None, pattern=r'^\\d{4}-\\d{2}-\\d{2}$')   # AAAA-MM-JJ (par défaut : fin des données)\napp = FastAPI(title='Prédiction de résultat de match', version=meta['version'])\n@app.middleware('http')\nasync def garde(request: Request, call_next):\n    t0 = time.perf_counter()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def log(**kw):\n    journal.info(json.dumps({'t': time.strftime('%Y-%m-%dT%H:%M:%S'), 'version': meta['version'], **kw}, ensure_ascii=False))\n# ---------- schémas (le contrat de données) ----------\ndef borne(nom):\n    lo, hi = BORNES[nom]\n    return Field(ge=lo, le=hi)\nclass MatchFeatures(BaseModel):\n    model_config = ConfigDict(extra='forbid')                         # champ inconnu -> 422\n    elo_dom: float = borne('elo_dom')\n    elo_ext: float = borne('elo_ext')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "borne",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def borne(nom):\n    lo, hi = BORNES[nom]\n    return Field(ge=lo, le=hi)\nclass MatchFeatures(BaseModel):\n    model_config = ConfigDict(extra='forbid')                         # champ inconnu -> 422\n    elo_dom: float = borne('elo_dom')\n    elo_ext: float = borne('elo_ext')\n    elo_diff: float = borne('elo_diff')\n    pts_dom: float = borne('pts_dom')\n    pts_ext: float = borne('pts_ext')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "predire",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def predire(ligne: dict) -> dict:\n    proba = pipeline.predict_proba(pd.DataFrame([ligne])[FEATURES])[0]       # mêmes colonnes, même ordre qu'à l'entraînement\n    p = {CLASSES[int(c)]: round(float(v), 4) for c, v in zip(pipeline.classes_, proba)}\n    classe = max(p, key=p.get)\n    log(evt='prediction', classe=classe, **{f'p_{i}': v for i, v in enumerate(p.values())})\n    return {'version': meta['version'], 'prediction': classe, 'probabilites': p}\n@app.get('/health')\ndef health():\n    return {'status': 'ok', 'model_version': meta['version'], 'modele': meta['modele'], 'equipes': len(etat['equipes'])}\n@app.get('/competitions')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def health():\n    return {'status': 'ok', 'model_version': meta['version'], 'modele': meta['modele'], 'equipes': len(etat['equipes'])}\n@app.get('/competitions')\ndef competitions():\n    return COMPETITIONS\n@app.get('/equipes')\ndef equipes(q: str = Query('', max_length=50), limite: int = Query(20, ge=1, le=50)):\n    q = q.lower().strip()\n    res = [{'id': int(i), 'nom': e['nom'], 'elo': round(e['elo'])} for i, e in etat['equipes'].items() if q in e['nom'].lower()]\n    return sorted(res, key=lambda e: -e['elo'])[:limite]",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "competitions",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def competitions():\n    return COMPETITIONS\n@app.get('/equipes')\ndef equipes(q: str = Query('', max_length=50), limite: int = Query(20, ge=1, le=50)):\n    q = q.lower().strip()\n    res = [{'id': int(i), 'nom': e['nom'], 'elo': round(e['elo'])} for i, e in etat['equipes'].items() if q in e['nom'].lower()]\n    return sorted(res, key=lambda e: -e['elo'])[:limite]\n@app.post('/predict')\ndef predict(m: MatchFeatures):\n    return predire(m.model_dump())",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "equipes",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def equipes(q: str = Query('', max_length=50), limite: int = Query(20, ge=1, le=50)):\n    q = q.lower().strip()\n    res = [{'id': int(i), 'nom': e['nom'], 'elo': round(e['elo'])} for i, e in etat['equipes'].items() if q in e['nom'].lower()]\n    return sorted(res, key=lambda e: -e['elo'])[:limite]\n@app.post('/predict')\ndef predict(m: MatchFeatures):\n    return predire(m.model_dump())\n@app.post('/predict-match')\ndef predict_match(m: MatchEquipes):\n    if m.equipe_dom == m.equipe_ext:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "predict",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def predict(m: MatchFeatures):\n    return predire(m.model_dump())\n@app.post('/predict-match')\ndef predict_match(m: MatchEquipes):\n    if m.equipe_dom == m.equipe_ext:\n        raise HTTPException(400, 'Les deux équipes doivent être différentes')\n    for i in (m.equipe_dom, m.equipe_ext):\n        e = etat['equipes'].get(str(i))\n        if e is None:\n            raise HTTPException(404, f'Équipe {i} inconnue ou inactive')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "predict_match",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def predict_match(m: MatchEquipes):\n    if m.equipe_dom == m.equipe_ext:\n        raise HTTPException(400, 'Les deux équipes doivent être différentes')\n    for i in (m.equipe_dom, m.equipe_ext):\n        e = etat['equipes'].get(str(i))\n        if e is None:\n            raise HTTPException(404, f'Équipe {i} inconnue ou inactive')\n        if e['nb'] < MIN_MATCHS:\n            raise HTTPException(400, f\"Historique insuffisant pour {e['nom']} (minimum {MIN_MATCHS} matchs)\")\n    try:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "accueil",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def accueil():\n    return FileResponse(BASE / 'static' / 'index.html')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "BASE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "BASE = Path(__file__).parent\nMODELE = BASE / 'model'\nLOG_DIR = Path(os.environ.get('LOG_DIR', BASE / 'logs'))\nLOG_DIR.mkdir(exist_ok=True)\nMAX_CORPS = 10_000                                                   # octets : au-delà -> 413\n# ---------- chargement unique au démarrage + contrôle d'intégrité ----------\nmeta = json.loads((MODELE / 'metadata.json').read_text(encoding='utf-8'))\nif hashlib.sha256((MODELE / 'pipeline.joblib').read_bytes()).hexdigest() != meta['sha256']:\n    raise RuntimeError('pipeline.joblib modifié ou corrompu : empreinte SHA-256 différente')\npipeline = joblib.load(MODELE / 'pipeline.joblib')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "MODELE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "MODELE = BASE / 'model'\nLOG_DIR = Path(os.environ.get('LOG_DIR', BASE / 'logs'))\nLOG_DIR.mkdir(exist_ok=True)\nMAX_CORPS = 10_000                                                   # octets : au-delà -> 413\n# ---------- chargement unique au démarrage + contrôle d'intégrité ----------\nmeta = json.loads((MODELE / 'metadata.json').read_text(encoding='utf-8'))\nif hashlib.sha256((MODELE / 'pipeline.joblib').read_bytes()).hexdigest() != meta['sha256']:\n    raise RuntimeError('pipeline.joblib modifié ou corrompu : empreinte SHA-256 différente')\npipeline = joblib.load(MODELE / 'pipeline.joblib')\netat = json.loads((MODELE / 'etat_equipes.json').read_text(encoding='utf-8'))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_DIR",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "LOG_DIR = Path(os.environ.get('LOG_DIR', BASE / 'logs'))\nLOG_DIR.mkdir(exist_ok=True)\nMAX_CORPS = 10_000                                                   # octets : au-delà -> 413\n# ---------- chargement unique au démarrage + contrôle d'intégrité ----------\nmeta = json.loads((MODELE / 'metadata.json').read_text(encoding='utf-8'))\nif hashlib.sha256((MODELE / 'pipeline.joblib').read_bytes()).hexdigest() != meta['sha256']:\n    raise RuntimeError('pipeline.joblib modifié ou corrompu : empreinte SHA-256 différente')\npipeline = joblib.load(MODELE / 'pipeline.joblib')\netat = json.loads((MODELE / 'etat_equipes.json').read_text(encoding='utf-8'))\nCOMPETITIONS = meta['competitions']",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_CORPS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "MAX_CORPS = 10_000                                                   # octets : au-delà -> 413\n# ---------- chargement unique au démarrage + contrôle d'intégrité ----------\nmeta = json.loads((MODELE / 'metadata.json').read_text(encoding='utf-8'))\nif hashlib.sha256((MODELE / 'pipeline.joblib').read_bytes()).hexdigest() != meta['sha256']:\n    raise RuntimeError('pipeline.joblib modifié ou corrompu : empreinte SHA-256 différente')\npipeline = joblib.load(MODELE / 'pipeline.joblib')\netat = json.loads((MODELE / 'etat_equipes.json').read_text(encoding='utf-8'))\nCOMPETITIONS = meta['competitions']\nCompetition = Literal[tuple(COMPETITIONS)]\nBORNES = meta['bornes']",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "meta",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "meta = json.loads((MODELE / 'metadata.json').read_text(encoding='utf-8'))\nif hashlib.sha256((MODELE / 'pipeline.joblib').read_bytes()).hexdigest() != meta['sha256']:\n    raise RuntimeError('pipeline.joblib modifié ou corrompu : empreinte SHA-256 différente')\npipeline = joblib.load(MODELE / 'pipeline.joblib')\netat = json.loads((MODELE / 'etat_equipes.json').read_text(encoding='utf-8'))\nCOMPETITIONS = meta['competitions']\nCompetition = Literal[tuple(COMPETITIONS)]\nBORNES = meta['bornes']\n# ---------- journal JSON (une ligne par évènement, sans donnée personnelle) ----------\njournal = logging.getLogger('football-api')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "pipeline",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "pipeline = joblib.load(MODELE / 'pipeline.joblib')\netat = json.loads((MODELE / 'etat_equipes.json').read_text(encoding='utf-8'))\nCOMPETITIONS = meta['competitions']\nCompetition = Literal[tuple(COMPETITIONS)]\nBORNES = meta['bornes']\n# ---------- journal JSON (une ligne par évènement, sans donnée personnelle) ----------\njournal = logging.getLogger('football-api')\njournal.setLevel(logging.INFO)\nif not journal.handlers:\n    h = logging.FileHandler(LOG_DIR / 'service.jsonl', encoding='utf-8')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "etat",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "etat = json.loads((MODELE / 'etat_equipes.json').read_text(encoding='utf-8'))\nCOMPETITIONS = meta['competitions']\nCompetition = Literal[tuple(COMPETITIONS)]\nBORNES = meta['bornes']\n# ---------- journal JSON (une ligne par évènement, sans donnée personnelle) ----------\njournal = logging.getLogger('football-api')\njournal.setLevel(logging.INFO)\nif not journal.handlers:\n    h = logging.FileHandler(LOG_DIR / 'service.jsonl', encoding='utf-8')\n    h.setFormatter(logging.Formatter('%(message)s'))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "COMPETITIONS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "COMPETITIONS = meta['competitions']\nCompetition = Literal[tuple(COMPETITIONS)]\nBORNES = meta['bornes']\n# ---------- journal JSON (une ligne par évènement, sans donnée personnelle) ----------\njournal = logging.getLogger('football-api')\njournal.setLevel(logging.INFO)\nif not journal.handlers:\n    h = logging.FileHandler(LOG_DIR / 'service.jsonl', encoding='utf-8')\n    h.setFormatter(logging.Formatter('%(message)s'))\n    journal.addHandler(h)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Competition",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "Competition = Literal[tuple(COMPETITIONS)]\nBORNES = meta['bornes']\n# ---------- journal JSON (une ligne par évènement, sans donnée personnelle) ----------\njournal = logging.getLogger('football-api')\njournal.setLevel(logging.INFO)\nif not journal.handlers:\n    h = logging.FileHandler(LOG_DIR / 'service.jsonl', encoding='utf-8')\n    h.setFormatter(logging.Formatter('%(message)s'))\n    journal.addHandler(h)\ndef log(**kw):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "BORNES",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "BORNES = meta['bornes']\n# ---------- journal JSON (une ligne par évènement, sans donnée personnelle) ----------\njournal = logging.getLogger('football-api')\njournal.setLevel(logging.INFO)\nif not journal.handlers:\n    h = logging.FileHandler(LOG_DIR / 'service.jsonl', encoding='utf-8')\n    h.setFormatter(logging.Formatter('%(message)s'))\n    journal.addHandler(h)\ndef log(**kw):\n    journal.info(json.dumps({'t': time.strftime('%Y-%m-%dT%H:%M:%S'), 'version': meta['version'], **kw}, ensure_ascii=False))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "journal",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "journal = logging.getLogger('football-api')\njournal.setLevel(logging.INFO)\nif not journal.handlers:\n    h = logging.FileHandler(LOG_DIR / 'service.jsonl', encoding='utf-8')\n    h.setFormatter(logging.Formatter('%(message)s'))\n    journal.addHandler(h)\ndef log(**kw):\n    journal.info(json.dumps({'t': time.strftime('%Y-%m-%dT%H:%M:%S'), 'version': meta['version'], **kw}, ensure_ascii=False))\n# ---------- schémas (le contrat de données) ----------\ndef borne(nom):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = FastAPI(title='Prédiction de résultat de match', version=meta['version'])\n@app.middleware('http')\nasync def garde(request: Request, call_next):\n    t0 = time.perf_counter()\n    if int(request.headers.get('content-length') or 0) > MAX_CORPS:\n        reponse = JSONResponse({'detail': 'Corps de requête trop volumineux'}, status_code=413)\n    else:\n        reponse = await call_next(request)\n    log(evt='requete', methode=request.method, chemin=request.url.path, statut=reponse.status_code,\n        ms=round((time.perf_counter() - t0) * 1000, 2))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "variables_valeur",
+        "kind": 2,
+        "importPath": "features",
+        "description": "features",
+        "peekOfCode": "def variables_valeur(x, z):\n    # (écart, niveau moyen, indicateur) en échelle log10 ; valeur inconnue -> valeurs neutres\n    if x is None or z is None or x <= 0 or z <= 0:\n        return 0.0, 7.0, 0\n    lx, lz = math.log10(x), math.log10(z)\n    return lx - lz, (lx + lz) / 2, 1\ndef repos(equipe, jour):\n    if not equipe.get('dernier'):\n        return 30.0\n    return float(max(0, min(30, (jour - datetime.fromisoformat(equipe['dernier'])).days)))",
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "repos",
+        "kind": 2,
+        "importPath": "features",
+        "description": "features",
+        "peekOfCode": "def repos(equipe, jour):\n    if not equipe.get('dernier'):\n        return 30.0\n    return float(max(0, min(30, (jour - datetime.fromisoformat(equipe['dernier'])).days)))\ndef ligne_depuis_etat(etat, dom, ext, competition, jour=None):\n    e1, e2 = etat['equipes'][str(dom)], etat['equipes'][str(ext)]\n    j = datetime.fromisoformat(jour or etat['date_reference'])\n    vd, vm, vc = variables_valeur(e1.get('valeur'), e2.get('valeur'))\n    return {'elo_dom': e1['elo'], 'elo_ext': e2['elo'], 'elo_diff': e1['elo'] - e2['elo'],\n            'pts_dom': e1['pts'], 'pts_ext': e2['pts'], 'pts_diff': e1['pts'] - e2['pts'],",
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "ligne_depuis_etat",
+        "kind": 2,
+        "importPath": "features",
+        "description": "features",
+        "peekOfCode": "def ligne_depuis_etat(etat, dom, ext, competition, jour=None):\n    e1, e2 = etat['equipes'][str(dom)], etat['equipes'][str(ext)]\n    j = datetime.fromisoformat(jour or etat['date_reference'])\n    vd, vm, vc = variables_valeur(e1.get('valeur'), e2.get('valeur'))\n    return {'elo_dom': e1['elo'], 'elo_ext': e2['elo'], 'elo_diff': e1['elo'] - e2['elo'],\n            'pts_dom': e1['pts'], 'pts_ext': e2['pts'], 'pts_diff': e1['pts'] - e2['pts'],\n            'bp_dom': e1['bp'], 'bc_dom': e1['bc'], 'bp_ext': e2['bp'], 'bc_ext': e2['bc'],\n            'val_diff': vd, 'val_moy': vm, 'repos_dom': repos(e1, j), 'repos_ext': repos(e2, j),\n            'val_connue': vc, 'competition_type': competition}",
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "FEATURES_NUM",
+        "kind": 5,
+        "importPath": "features",
+        "description": "features",
+        "peekOfCode": "FEATURES_NUM = ['elo_dom', 'elo_ext', 'elo_diff', 'pts_dom', 'pts_ext', 'pts_diff', 'bp_dom', 'bc_dom', 'bp_ext', 'bc_ext',\n                'val_diff', 'val_moy', 'repos_dom', 'repos_ext']\nFEATURES = FEATURES_NUM + ['val_connue', 'competition_type']      # ordre = ordre d'entraînement\nCLASSES = ['Victoire extérieur', 'Nul', 'Victoire domicile']       # classes 0, 1, 2\nMIN_MATCHS = 5                                                      # historique minimal (comme à l'entraînement)\ndef variables_valeur(x, z):\n    # (écart, niveau moyen, indicateur) en échelle log10 ; valeur inconnue -> valeurs neutres\n    if x is None or z is None or x <= 0 or z <= 0:\n        return 0.0, 7.0, 0\n    lx, lz = math.log10(x), math.log10(z)",
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "FEATURES",
+        "kind": 5,
+        "importPath": "features",
+        "description": "features",
+        "peekOfCode": "FEATURES = FEATURES_NUM + ['val_connue', 'competition_type']      # ordre = ordre d'entraînement\nCLASSES = ['Victoire extérieur', 'Nul', 'Victoire domicile']       # classes 0, 1, 2\nMIN_MATCHS = 5                                                      # historique minimal (comme à l'entraînement)\ndef variables_valeur(x, z):\n    # (écart, niveau moyen, indicateur) en échelle log10 ; valeur inconnue -> valeurs neutres\n    if x is None or z is None or x <= 0 or z <= 0:\n        return 0.0, 7.0, 0\n    lx, lz = math.log10(x), math.log10(z)\n    return lx - lz, (lx + lz) / 2, 1\ndef repos(equipe, jour):",
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "CLASSES",
+        "kind": 5,
+        "importPath": "features",
+        "description": "features",
+        "peekOfCode": "CLASSES = ['Victoire extérieur', 'Nul', 'Victoire domicile']       # classes 0, 1, 2\nMIN_MATCHS = 5                                                      # historique minimal (comme à l'entraînement)\ndef variables_valeur(x, z):\n    # (écart, niveau moyen, indicateur) en échelle log10 ; valeur inconnue -> valeurs neutres\n    if x is None or z is None or x <= 0 or z <= 0:\n        return 0.0, 7.0, 0\n    lx, lz = math.log10(x), math.log10(z)\n    return lx - lz, (lx + lz) / 2, 1\ndef repos(equipe, jour):\n    if not equipe.get('dernier'):",
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_MATCHS",
+        "kind": 5,
+        "importPath": "features",
+        "description": "features",
+        "peekOfCode": "MIN_MATCHS = 5                                                      # historique minimal (comme à l'entraînement)\ndef variables_valeur(x, z):\n    # (écart, niveau moyen, indicateur) en échelle log10 ; valeur inconnue -> valeurs neutres\n    if x is None or z is None or x <= 0 or z <= 0:\n        return 0.0, 7.0, 0\n    lx, lz = math.log10(x), math.log10(z)\n    return lx - lz, (lx + lz) / 2, 1\ndef repos(equipe, jour):\n    if not equipe.get('dernier'):\n        return 30.0",
+        "detail": "features",
+        "documentation": {}
+    },
+    {
+        "label": "test_health",
+        "kind": 2,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "def test_health():\n    r = client.get('/health')\n    assert r.status_code == 200 and r.json()['status'] == 'ok'\ndef test_predict_identique_au_pipeline():\n    r = client.post('/predict', json=LIGNE)\n    assert r.status_code == 200\n    attendu = pipeline.predict_proba(pd.DataFrame([LIGNE])[FEATURES])[0]\n    assert list(r.json()['probabilites'].values()) == pytest.approx([round(float(v), 4) for v in attendu], abs=1e-4)\n    assert sum(r.json()['probabilites'].values()) == pytest.approx(1, abs=1e-3)\ndef test_predict_match():",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "test_predict_identique_au_pipeline",
+        "kind": 2,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "def test_predict_identique_au_pipeline():\n    r = client.post('/predict', json=LIGNE)\n    assert r.status_code == 200\n    attendu = pipeline.predict_proba(pd.DataFrame([LIGNE])[FEATURES])[0]\n    assert list(r.json()['probabilites'].values()) == pytest.approx([round(float(v), 4) for v in attendu], abs=1e-4)\n    assert sum(r.json()['probabilites'].values()) == pytest.approx(1, abs=1e-3)\ndef test_predict_match():\n    r = client.post('/predict-match', json={'equipe_dom': DOM, 'equipe_ext': EXT, 'competition_type': 'domestic_league'})\n    assert r.status_code == 200\n    assert r.json()['prediction'] in ('Victoire extérieur', 'Nul', 'Victoire domicile')",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "test_predict_match",
+        "kind": 2,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "def test_predict_match():\n    r = client.post('/predict-match', json={'equipe_dom': DOM, 'equipe_ext': EXT, 'competition_type': 'domestic_league'})\n    assert r.status_code == 200\n    assert r.json()['prediction'] in ('Victoire extérieur', 'Nul', 'Victoire domicile')\n@pytest.mark.parametrize('modif', [\n    {'elo_dom': 99999},                       # hors bornes\n    {'pts_dom': -1},                          # hors bornes\n    {'elo_dom': 'beaucoup'},                  # mauvais type\n    {'val_connue': 2},                        # valeur non autorisée\n    {'competition_type': 'tournoi_inconnu'},  # catégorie inconnue",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "test_entrees_invalides_422",
+        "kind": 2,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "def test_entrees_invalides_422(modif):\n    assert client.post('/predict', json={**LIGNE, **modif}).status_code == 422\ndef test_champ_manquant_422():\n    mauvais = dict(LIGNE); mauvais.pop('elo_dom')\n    assert client.post('/predict', json=mauvais).status_code == 422\ndef test_corps_trop_gros_413():\n    r = client.post('/predict', content=b'x' * 20000, headers={'content-type': 'application/json'})\n    assert r.status_code == 413\ndef test_equipe_inconnue_404():\n    r = client.post('/predict-match', json={'equipe_dom': -1, 'equipe_ext': EXT, 'competition_type': 'domestic_league'})",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "test_champ_manquant_422",
+        "kind": 2,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "def test_champ_manquant_422():\n    mauvais = dict(LIGNE); mauvais.pop('elo_dom')\n    assert client.post('/predict', json=mauvais).status_code == 422\ndef test_corps_trop_gros_413():\n    r = client.post('/predict', content=b'x' * 20000, headers={'content-type': 'application/json'})\n    assert r.status_code == 413\ndef test_equipe_inconnue_404():\n    r = client.post('/predict-match', json={'equipe_dom': -1, 'equipe_ext': EXT, 'competition_type': 'domestic_league'})\n    assert r.status_code == 404\ndef test_memes_equipes_400():",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "test_corps_trop_gros_413",
+        "kind": 2,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "def test_corps_trop_gros_413():\n    r = client.post('/predict', content=b'x' * 20000, headers={'content-type': 'application/json'})\n    assert r.status_code == 413\ndef test_equipe_inconnue_404():\n    r = client.post('/predict-match', json={'equipe_dom': -1, 'equipe_ext': EXT, 'competition_type': 'domestic_league'})\n    assert r.status_code == 404\ndef test_memes_equipes_400():\n    r = client.post('/predict-match', json={'equipe_dom': DOM, 'equipe_ext': DOM, 'competition_type': 'domestic_league'})\n    assert r.status_code == 400\ndef test_recherche_equipes():",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "test_equipe_inconnue_404",
+        "kind": 2,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "def test_equipe_inconnue_404():\n    r = client.post('/predict-match', json={'equipe_dom': -1, 'equipe_ext': EXT, 'competition_type': 'domestic_league'})\n    assert r.status_code == 404\ndef test_memes_equipes_400():\n    r = client.post('/predict-match', json={'equipe_dom': DOM, 'equipe_ext': DOM, 'competition_type': 'domestic_league'})\n    assert r.status_code == 400\ndef test_recherche_equipes():\n    r = client.get('/equipes', params={'q': etat['equipes'][str(DOM)]['nom'][:4], 'limite': 5})\n    assert r.status_code == 200 and len(r.json()) <= 5",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "test_memes_equipes_400",
+        "kind": 2,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "def test_memes_equipes_400():\n    r = client.post('/predict-match', json={'equipe_dom': DOM, 'equipe_ext': DOM, 'competition_type': 'domestic_league'})\n    assert r.status_code == 400\ndef test_recherche_equipes():\n    r = client.get('/equipes', params={'q': etat['equipes'][str(DOM)]['nom'][:4], 'limite': 5})\n    assert r.status_code == 200 and len(r.json()) <= 5",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "test_recherche_equipes",
+        "kind": 2,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "def test_recherche_equipes():\n    r = client.get('/equipes', params={'q': etat['equipes'][str(DOM)]['nom'][:4], 'limite': 5})\n    assert r.status_code == 200 and len(r.json()) <= 5",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "client = TestClient(app)\nACTIVES = [i for i, e in etat['equipes'].items() if e['nb'] >= MIN_MATCHS and not e['selection']]\nDOM, EXT = int(ACTIVES[0]), int(ACTIVES[1])\nLIGNE = ligne_depuis_etat(etat, DOM, EXT, 'domestic_league')\ndef test_health():\n    r = client.get('/health')\n    assert r.status_code == 200 and r.json()['status'] == 'ok'\ndef test_predict_identique_au_pipeline():\n    r = client.post('/predict', json=LIGNE)\n    assert r.status_code == 200",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "ACTIVES",
+        "kind": 5,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "ACTIVES = [i for i, e in etat['equipes'].items() if e['nb'] >= MIN_MATCHS and not e['selection']]\nDOM, EXT = int(ACTIVES[0]), int(ACTIVES[1])\nLIGNE = ligne_depuis_etat(etat, DOM, EXT, 'domestic_league')\ndef test_health():\n    r = client.get('/health')\n    assert r.status_code == 200 and r.json()['status'] == 'ok'\ndef test_predict_identique_au_pipeline():\n    r = client.post('/predict', json=LIGNE)\n    assert r.status_code == 200\n    attendu = pipeline.predict_proba(pd.DataFrame([LIGNE])[FEATURES])[0]",
+        "detail": "test_service",
+        "documentation": {}
+    },
+    {
+        "label": "LIGNE",
+        "kind": 5,
+        "importPath": "test_service",
+        "description": "test_service",
+        "peekOfCode": "LIGNE = ligne_depuis_etat(etat, DOM, EXT, 'domestic_league')\ndef test_health():\n    r = client.get('/health')\n    assert r.status_code == 200 and r.json()['status'] == 'ok'\ndef test_predict_identique_au_pipeline():\n    r = client.post('/predict', json=LIGNE)\n    assert r.status_code == 200\n    attendu = pipeline.predict_proba(pd.DataFrame([LIGNE])[FEATURES])[0]\n    assert list(r.json()['probabilites'].values()) == pytest.approx([round(float(v), 4) for v in attendu], abs=1e-4)\n    assert sum(r.json()['probabilites'].values()) == pytest.approx(1, abs=1e-3)",
+        "detail": "test_service",
+        "documentation": {}
+    }
+]
