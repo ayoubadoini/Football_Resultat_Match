@@ -17,7 +17,8 @@ football-api/
 ├── requirements-dev.txt
 ├── .dockerignore
 ├── .gitignore
-└── logs/service.jsonl     # Journal JSON applicatif
+├── logs/service.jsonl     # Journal JSON applicatif
+├── Football_Resultat_Match_Pro_Complet.ipynb  # Analyse ML complète
 ```
 
 ## Installation locale sous Windows PowerShell
