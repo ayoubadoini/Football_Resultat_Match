@@ -336,6 +336,33 @@
         "documentation": {}
     },
     {
+        "label": "stats",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def stats():\n    return {**STATS, 'meta': {'version': meta['version'], 'modele': meta['modele'], 'entraine_le': meta['entraine_le'],\n                              'metriques': meta['metriques_test_temporel'], 'lignes': meta['lignes_entrainement'],\n                              'classes': meta['classes'], 'prior': meta['prior_classes'], 'sklearn': meta['sklearn']}}\ndef lire_journal(max_octets=400_000):\n    f = LOG_DIR / 'service.jsonl'\n    if not f.exists():\n        return []\n    with open(f, 'rb') as fh:                                   # on ne lit que la fin du fichier (rapide même si le journal grossit)\n        fh.seek(0, 2)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "lire_journal",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def lire_journal(max_octets=400_000):\n    f = LOG_DIR / 'service.jsonl'\n    if not f.exists():\n        return []\n    with open(f, 'rb') as fh:                                   # on ne lit que la fin du fichier (rapide même si le journal grossit)\n        fh.seek(0, 2)\n        taille = fh.tell()\n        fh.seek(max(0, taille - max_octets))\n        lignes = fh.read().decode('utf-8', errors='ignore').splitlines()\n    sortie = []",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "stats_live",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def stats_live():\n    lg = lire_journal()\n    reqs = [e for e in lg if e.get('evt') == 'requete']\n    preds = [e for e in lg if e.get('evt') == 'prediction']\n    api = [e['ms'] for e in reqs if e.get('chemin') in ('/predict', '/predict-match')]\n    api.sort()\n    def pct(p):\n        return round(api[min(len(api) - 1, int(len(api) * p))], 2) if api else None\n    cl = {'2xx': 0, '4xx': 0, '5xx': 0}\n    for e in reqs:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
         "label": "accueil",
         "kind": 2,
         "importPath": "app",
@@ -449,6 +476,24 @@
         "importPath": "app",
         "description": "app",
         "peekOfCode": "app = FastAPI(title='Prédiction de résultat de match', version=meta['version'])\n@app.middleware('http')\nasync def garde(request: Request, call_next):\n    t0 = time.perf_counter()\n    if int(request.headers.get('content-length') or 0) > MAX_CORPS:\n        reponse = JSONResponse({'detail': 'Corps de requête trop volumineux'}, status_code=413)\n    else:\n        reponse = await call_next(request)\n    log(evt='requete', methode=request.method, chemin=request.url.path, statut=reponse.status_code,\n        ms=round((time.perf_counter() - t0) * 1000, 2))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "STATS_FICHIER",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "STATS_FICHIER = MODELE / 'stats.json'\nSTATS = json.loads(STATS_FICHIER.read_text(encoding='utf-8')) if STATS_FICHIER.exists() else {}\n@app.get('/stats')\ndef stats():\n    return {**STATS, 'meta': {'version': meta['version'], 'modele': meta['modele'], 'entraine_le': meta['entraine_le'],\n                              'metriques': meta['metriques_test_temporel'], 'lignes': meta['lignes_entrainement'],\n                              'classes': meta['classes'], 'prior': meta['prior_classes'], 'sklearn': meta['sklearn']}}\ndef lire_journal(max_octets=400_000):\n    f = LOG_DIR / 'service.jsonl'\n    if not f.exists():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "STATS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "STATS = json.loads(STATS_FICHIER.read_text(encoding='utf-8')) if STATS_FICHIER.exists() else {}\n@app.get('/stats')\ndef stats():\n    return {**STATS, 'meta': {'version': meta['version'], 'modele': meta['modele'], 'entraine_le': meta['entraine_le'],\n                              'metriques': meta['metriques_test_temporel'], 'lignes': meta['lignes_entrainement'],\n                              'classes': meta['classes'], 'prior': meta['prior_classes'], 'sklearn': meta['sklearn']}}\ndef lire_journal(max_octets=400_000):\n    f = LOG_DIR / 'service.jsonl'\n    if not f.exists():\n        return []",
         "detail": "app",
         "documentation": {}
     },
