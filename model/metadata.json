@@ -1,6 +1,6 @@
 {
   "version": "football-v1",
-  "entraine_le": "2026-11-18",
+  "entraine_le": "2026-11-21",
   "modele": "Régression logistique",
   "hyperparametres": {
     "C": 0.1

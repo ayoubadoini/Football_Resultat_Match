@@ -1,5 +1,5 @@
 # Même version de Python que pour l'entraînement
-FROM python:3.13-slim
+FROM python:3.14-slim
 WORKDIR /app
 # Dépendances d'abord : cette couche reste en cache tant que requirements.txt ne change pas
 COPY requirements.txt .
